@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cadastre-se para receber atendimento da Horizonte Financeira.">
+  <title>Horizonte Financeira | Seja nosso cliente</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="logo" href="index.html"><span class="logo-mark">H</span><span>Horizonte<small>Financeira</small></span></a>
+    <nav aria-label="Menu principal">
+      <a href="index.html">Início</a><a href="emprestimos.html">Empréstimos</a><a class="active" href="cliente.html">Seja nosso cliente</a>
+    </nav>
+    <div class="sidebar-help"><span>Precisa de ajuda?</span><strong>(31) 3333-2026</strong><small>Seg. a sex., 8h às 18h</small></div>
+  </aside>
+
+  <div class="page">
+    <header class="topbar"><span>Atendimento próximo, do começo ao fim</span><a class="outline-button" href="emprestimos.html">Ver empréstimos</a></header>
+    <main>
+      <section class="signup">
+        <div class="signup-visual">
+          <div class="visual-card">
+            <span class="eyebrow light">Bem-vindo à Horizonte</span>
+            <h1>Vamos construir seus próximos passos juntos.</h1>
+            <p>Preencha seus dados. Nossa equipe entrará em contato para entender o que você precisa, sem compromisso.</p>
+            <div class="person-illustration" aria-label="Ilustração de atendimento financeiro">
+              <span class="sun"></span><span class="desk"></span><span class="person"></span><span class="plant"></span>
+            </div>
+            <ul class="check-list"><li>Atendimento humano</li><li>Dados tratados com segurança</li><li>Retorno em até 1 dia útil</li></ul>
+          </div>
+        </div>
+
+        <div class="form-area">
+          <span class="eyebrow">Cadastro</span><h2>Conte um pouco sobre você</h2><p>Os campos marcados com * são obrigatórios.</p>
+          <form class="client-form" action="#" method="post">
+            <div class="field full"><label for="nome">Nome completo *</label><input id="nome" name="nome" type="text" placeholder="Digite seu nome" required autocomplete="name"></div>
+            <div class="field"><label for="cpf">CPF *</label><input id="cpf" name="cpf" type="text" placeholder="000.000.000-00" required inputmode="numeric"></div>
+            <div class="field"><label for="nascimento">Data de nascimento *</label><input id="nascimento" name="nascimento" type="date" required></div>
+            <div class="field"><label for="telefone">Telefone *</label><input id="telefone" name="telefone" type="tel" placeholder="(31) 99999-9999" required autocomplete="tel"></div>
+            <div class="field"><label for="email">E-mail *</label><input id="email" name="email" type="email" placeholder="voce@email.com" required autocomplete="email"></div>
+            <div class="field full"><label for="interesse">Tenho interesse em</label><select id="interesse" name="interesse"><option value="">Selecione uma opção</option><option>Empréstimo pessoal</option><option>Crédito consignado</option><option>Organização financeira</option></select></div>
+            <div class="field full"><label for="mensagem">Como podemos ajudar?</label><textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte brevemente o que você procura"></textarea></div>
+            <label class="consent full"><input type="checkbox" required> <span>Li e concordo com o uso dos meus dados para contato, conforme a política de privacidade.</span></label>
+            <button class="button full-button full" type="submit">Enviar cadastro</button>
+            <small class="form-note full">Este formulário é demonstrativo e não envia dados para um servidor.</small>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div><strong>Horizonte Financeira</strong><p>Crédito consciente para realizar mais.</p></div>
+      <div><strong>Contato</strong><p>(31) 3333-2026<br>contato@horizontefinanceira.com.br</p></div>
+      <div><strong>Endereço</strong><p>Av. Principal, 250 — Centro<br>Belo Horizonte — MG</p></div>
+      <div><strong>Redes sociais</strong><p><a href="#">Instagram</a> · <a href="#">Facebook</a> · <a href="#">LinkedIn</a></p></div>
+      <small>© 2026 Horizonte Financeira. Todos os direitos reservados.</small>
+    </footer>
+  </div>
+</body>
+</html>
